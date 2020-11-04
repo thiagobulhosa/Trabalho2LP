@@ -2,8 +2,6 @@
 ///Thiago Bulhosa
 ///Victor Hugo
 
-#include <stdio.h>
-#include <stdlib.h>
 #include "coletor.h"
 
 int main(){
