@@ -5,7 +5,7 @@
 void *malloc2(int tamanho)
 {
     void *end=malloc(tamanho);
-    ((Memoria*)end)->cont=1; ///Casting
+    ((Memoria*)end)->cont=1;
     return end;
 }
 
