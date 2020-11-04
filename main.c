@@ -23,9 +23,6 @@ int main(){
 
 	atribui2(&v,&w);
 	atribui2(&y,&z);
-	///atribui2(&w,&y);
-	///atribui2(&v,&y);
-    ///atribui2(&y,&z);
 
 	Imprime_memoria(v);
 	Imprime_memoria(w);
