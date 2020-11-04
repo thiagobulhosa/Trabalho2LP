@@ -1,5 +1,3 @@
-#include <stdio.h>
-#include <stdlib.h>
 #include "coletor.h"
 
 void *malloc2(int tamanho)
