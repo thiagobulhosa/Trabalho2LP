@@ -1,6 +1,6 @@
 #include "coletor.h"
 
-void *malloc2(int tamanho)
+Memoria *malloc2(int tamanho)
 {
     void *end=malloc(tamanho);
     ((Memoria*)end)->cont=1;
