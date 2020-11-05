@@ -6,7 +6,7 @@ typedef struct memoria{
     int cont;
 }Memoria;
 
-void *malloc2(int tamanho);
+Memoria *malloc2(int tamanho);
 void *atrib(Memoria *end, void *valor);
-void atribui2(Memoria **ed1, Memoria **ed2); ///Endereço 1 apontara para o endereço2;
+void atribui2(Memoria **ed1, Memoria **ed2); ///EndereÃ§o 1 apontara para o endereÃ§o2;
 void Imprime_memoria(Memoria *ed1);
